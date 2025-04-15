@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+.mySwiper .swiper-button-next,
+.mySwiper .swiper-button-prev {
+  color: #101828 !important;
+  font-weight: bolder;
+}
+
+.mySwiper .swiper-pagination-bullet-active {
+  background-color: #101828 !important;
+  font-weight: bolder;
+}
+
+.mySwiper .swiper-pagination-bullet {
+  background-color: #101828 !important;
+  font-weight: bolder;
+  height: 12px;
+  width: 12px;
+}
+.background {
+  height: 250px;
+  width: 100%;
+  background-image: url("https://images.bhimagold.com/admin/collection/images/1729254637143-Women.jpg?w=1680&q=75");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
