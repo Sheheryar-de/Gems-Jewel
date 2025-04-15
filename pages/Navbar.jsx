@@ -23,7 +23,12 @@ const Navbar = () => {
           </div>
           <div className="flex items-center space-x-3 md:space-x-6">
             {iconArr.map((item) => (
-              <Badge key={item.id} icon={item.icon} value={item.value} />
+              <Badge
+                key={item.id}
+                icon={item.icon}
+                value={item.value}
+                href={item.link}
+              />
             ))}
             <a
               href="#"
@@ -96,15 +101,16 @@ export default Navbar;
 
 const iconArr = [
   { id: 1, value: 0, icon: <CiUser className="h-4 w-4 md:w-7 md:h-7" /> },
-  {
-    id: 2,
-    value: 10,
-    icon: <CiHeart className="h-4.5 w-4.5 md:w-7.5 md:h-7.5" />,
-  },
+  // {
+  //   id: 2,
+  //   value: 10,
+  //   icon: <CiHeart className="h-4.5 w-4.5 md:w-7.5 md:h-7.5" />,
+  // },
   {
     id: 3,
     value: 20,
     icon: <CiShoppingCart className="h-4.5 w-4.5 md:w-7.5 md:h-7.5" />,
+    link: "/cart",
   },
 ];
 
