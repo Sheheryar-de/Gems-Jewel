@@ -123,7 +123,7 @@ const CartPage = () => {
               <span className="text-amber-600">₹{totalAmount}</span>
             </div>
             <Link
-              href="/checkout"
+              href="/cart/checkout"
               className="mt-6 inline-block w-full text-center bg-amber-500 hover:bg-amber-600 text-white py-2 px-4 rounded-lg transition"
             >
               Proceed to Checkout
